@@ -1,0 +1,3 @@
+class UploadFilesService {}
+
+export { UploadFilesService };

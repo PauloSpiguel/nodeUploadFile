@@ -1,0 +1,3 @@
+class DeleteFilesService {}
+
+export { DeleteFilesService };
