@@ -1,7 +1,9 @@
 const appConfig = {
-  type: {
-    1: "file",
-    2: "folder",
+  ftp: {
+    type: {
+      1: "file",
+      2: "folder",
+    },
   },
 } as const;
 

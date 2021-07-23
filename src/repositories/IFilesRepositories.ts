@@ -1,6 +1,8 @@
+import { IUploadFilesDTO } from "../dtos/IUploadFilesDTO";
+
 interface IFilesRepositories {
-  list(): Promise<any>;
-  uploadFrom(path: string): Promise<any>;
+  list(directory: string): Promise<any>;
+  saveFile(payload: IUploadFilesDTO): Promise<void>;
 }
 
 export { IFilesRepositories };

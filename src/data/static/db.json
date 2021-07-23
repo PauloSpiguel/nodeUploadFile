@@ -1,0 +1,7 @@
+{
+  "categories": [
+    { "id": 1, "name": "repasse-financeiro", "directory": "trasparencia" },
+    { "id": 2, "name": "despesas", "directory": "trasparencia" },
+    { "id": 3, "name": "vagas", "directory": "vagas" }
+  ]
+}
